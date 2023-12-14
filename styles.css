@@ -1,3 +1,83 @@
+.navbar_header,
+.welcome_section{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    padding: 20px 0px 20px 40px;
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+    display: block;
+    border-radius: 20%;
+}
+
+.navbar_header .links{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github{
+    background-color: white;
+    color: black;
+}
+
+.fa-linkedin{
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+
+.profile_pic img{
+    width: 200px;
+    height:auto;
+}
+
+.welcome_section{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.welcome_msg button{
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    display: block;
+    border: none;
+    font-family: 'Roboto', arial;
+    margin: 4px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
 
 .toc{
     display: flex;
@@ -23,9 +103,14 @@ blockquote{
     font-style: italic;
 }
 
-footer p{
-    position: fixed;
+footer{
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    background-color: inherit;
     color: white;
     text-align: center;
 }
