@@ -1,0 +1,31 @@
+
+.toc{
+    display: flex;
+}
+
+.toc_item{
+    justify-content:center;
+    align-items: baseline;
+    flex: 1;
+}
+
+.toc_item img{
+    object-fit: contain;
+    max-width: 200px;
+    max-height: 200px
+}
+
+blockquote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+footer p{
+    position: fixed;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
