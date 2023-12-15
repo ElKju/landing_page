@@ -56,6 +56,8 @@
 .welcome_section{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
 h1{
@@ -64,6 +66,13 @@ h1{
     color: #F9FAF8;
     margin: 0;
     font-family: 'Roboto', arial;
+}
+
+.welcome_msg p{
+    opacity: 0.6;
+    font-family: 'Roboto', arial;
+    max-width: 500px;
+    margin-right: 100px;
 }
 
 .welcome_msg button{
@@ -97,10 +106,14 @@ h1{
 
 blockquote{
     background-color: #e5e7eb;
-    font-size: 36px;
+    font-size: 30px;
     color:#1f2937;
     font-weight: lighter;
     font-style: italic;
+}
+
+.quoter{
+    text-align: right;
 }
 
 footer{
